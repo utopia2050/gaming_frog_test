@@ -1,0 +1,5 @@
+<div class="icon-row" [ngClass]="{'odd': index % 2 === 1}">
+  <label>{{index}}</label>
+  <img src="/assets/happy.png" *ngIf="index % 3 === 0">
+  <img src="/assets/sad.png" *ngIf="index % 5 === 0">
+</div>

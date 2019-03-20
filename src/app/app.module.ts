@@ -9,6 +9,8 @@ import { AppRoutingModule } from './app.routing';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { IconRowComponent } from './components/icon-row/icon-row.component';
+import { IconListComponent } from './components/icon-list/icon-list.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     HomeComponent,
     FooterComponent,
+    IconRowComponent,
+    IconListComponent
   ],
   imports: [
     BrowserModule,
